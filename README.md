@@ -1,6 +1,4 @@
-Version 1.0
-
-Demo
+Version 1.0  Demo
 
 import com.tzcacm.bean.Query;
 import com.tzcacm.bean.Status;
@@ -30,9 +28,4 @@ public class VirtualJudgeTest {
             System.out.println("net is exception");
         }
     }
-}
-
-
-if(status.getJudgeStatus() == Status.JUDGE_STATUS_ACCEPT){
-            System.out.println("Accept");
 }
